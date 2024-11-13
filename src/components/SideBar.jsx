@@ -10,7 +10,7 @@ const SideBar = () => {
         <div className="px-[15px] py-[50px]">
             <button className="rounded-[5px] py-[10px] px-[13px] bg-[#0091F7] h-[38px] w-[230px] flex gap-[9px]">
                 <img src={patientIcon} alt="patient icon" className='h-[18px] w-[18px]' />
-                <p className='text-[#ffffff] font-urbane nav-item-text'>Patients</p>
+                <p className='text-[#ffffff] font-urbane nav-item-text font-[300]'>Patients</p>
             </button>
         </div>
     </nav>
