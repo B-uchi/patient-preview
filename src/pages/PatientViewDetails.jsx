@@ -59,7 +59,7 @@ const PatientViewDetails = () => {
               <h3 className="font-urbane font-[500] text-[16px] leading-[19px]">
                 Summary
               </h3>
-              <p className="text-[17px] leading-[19.92px] font-roboto font-[400] text-[#1D3653] h-[98px]">
+              <p className="text-[16px] leading-[19.92px] font-roboto font-[400] text-[#1D3653] h-[98px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, Lorem Ipsum is simply dummy text of
