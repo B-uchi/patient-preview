@@ -52,14 +52,14 @@ const PatientViewDetails = () => {
             </div>
           </div>
           <div className="bg-white font-urbane custom-shadow rounded-[12px] pt-[32px] pb-[43px] px-[25px] flex flex-col gap-[24px] w-[835px]">
-            <h1 className="font-[500] text-[19px] leading-[22px]">
+            <h1 className="font-[500] text-[19px] leading-[22.8px] h-[35px]">
               Tabish Bin Tahir (AI Generated Profile)
             </h1>
             <div className="flex flex-col gap-[17px] items-start">
               <h3 className="font-urbane font-[500] text-[16px] leading-[19px]">
                 Summary
               </h3>
-              <p className="text-[17px] font-roboto font-[400] text-[#1D3653]">
+              <p className="text-[17px] leading-[19.92px] font-roboto font-[400] text-[#1D3653] h-[98px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, Lorem Ipsum is simply dummy text of
