@@ -59,7 +59,7 @@ const PatientViewDetails = () => {
               <h3 className="font-urbane font-[500] text-[16px] leading-[19px]">
                 Summary
               </h3>
-              <p className="text-[17px] font-roboto text-[#1D3653]">
+              <p className="text-[17px] font-roboto font-[400] text-[#1D3653]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, Lorem Ipsum is simply dummy text of
@@ -71,8 +71,8 @@ const PatientViewDetails = () => {
               </button>
             </div>
             <h2 className="font-urbane font-[500] text-[19px]">Documents</h2>
-            <div className="flex gap-[35px]">
-              <div className="flex w-1/3 justify-between items-center">
+            <div className="flex gap-[35px] h-[56px]">
+              <div className="flex w-1/3 justify-between items-center h-[37px]">
                 <div className="flex gap-[17px]">
                   <img src={pdfIcon} alt="pdf Icon" />
                   <div className="flex flex-col font-roboto">
@@ -84,7 +84,7 @@ const PatientViewDetails = () => {
                   <img src={crossIcon} alt="close icon" />
                 </button>
               </div>
-              <div className="flex w-1/3 justify-between items-center">
+              <div className="flex w-1/3 justify-between items-center h-[37px]">
                 <div className="flex gap-[17px]">
                   <img src={pdfIcon} alt="pdf Icon" />
                   <div className="flex flex-col font-roboto">
@@ -96,7 +96,7 @@ const PatientViewDetails = () => {
                   <img src={crossIcon} alt="close icon" />
                 </button>
               </div>
-              <div className="flex w-1/3 justify-between items-center">
+              <div className="flex w-1/3 justify-between items-center h-[37px]">
                 <div className="flex gap-[17px]">
                   <img src={pdfIcon} alt="pdf Icon" />
                   <div className="flex flex-col font-roboto">
@@ -109,6 +109,9 @@ const PatientViewDetails = () => {
                 </button>
               </div>
             </div>
+            <button className="py-[10px] w-[130px] px-[15px] rounded-[6px] bg-[#0091F7] text-white font-roboto text-[14px] leading-[16px]">
+                Generate Profile
+            </button>
           </div>
         </div>
       </div>
